@@ -128,7 +128,7 @@ blocks:
           commands:
             - "[[ -f junit.xml ]] && test-results publish --name \"🧪 $NAME\" junit.xml"
 
-  - name: E2e Tests
+  - name: E2e Test
     task:
       env_vars:
         - name: NODE_ENV
